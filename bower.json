@@ -1,0 +1,10 @@
+{
+  "name": "CarlinoplateJS",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": null,
+    "lodash-amd": null,
+    "requirejs": null,
+    "jasmine": null
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jasmine Spec Runner</title>
+  <link rel="stylesheet" type="text/css" href="scripts/vendor/jasmine/lib/jasmine-core/jasmine.css">
+  <script src="scripts/vendor/requirejs/require.js" data-main="spec/spec_runner"></script>
+  <script type="text/javascript">
+  require.config({
+  //invalidate the cache on every request
+  urlArgs: 'cb=' + Math.random(),
+  paths: {
+    jquery: '../scripts/vendor/jquery/jquery',
+    jasmine: '../scripts/vendor/jasmine/lib/jasmine-core/jasmine',
+    'jasmine-html': '../scripts/vendor/jasmine/lib/jasmine-core/jasmine-html',
+    spec: '../spec/spec_runner'
+  }
+});
+  </script>
+</head>
+<body>
+  <div id="sandbox" style="overflow: hidden; height: 1px;"></div>
+</body>
+</html>
