@@ -6,5 +6,6 @@ Write frontend apps the way Rick Carlino does! This is just some boilerplate I a
 
  * Bower (within app/scripts/vendor)
  * Jasmine (spec runner at `app/test.html`)
- * RequireJS
+ * RequireJS (see main.js)
  * LoDash AMD
+ * Zurb Foundation

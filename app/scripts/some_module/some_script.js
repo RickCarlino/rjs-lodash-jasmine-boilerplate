@@ -1,7 +1,7 @@
 define(function() {
     var some_script = {
         hi: function() {
-            alert('Delete the file "some_module.js" now that you know requirejs is working.')
+            console.log('AMD modules are working!');
         }
     }
     return some_script;
